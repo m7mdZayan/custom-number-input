@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div {
+  width: 25%;
+  margin: 30px auto;
+  border: 2px solid #f05;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+input {
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  font-size: 20px;
+  /* color: darkmagenta; */
+}
+
+input:focus {
+  outline: none;
+}
+
+i {
+  position: absolute;
+}
+i:hover {
+  cursor: pointer;
+}
+
+.fa-arrow-up {
+  top: 4px;
+  right: 5px;
+}
+
+.fa-arrow-down {
+  bottom: 4px;
+  right: 5px;
+}
